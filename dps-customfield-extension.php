@@ -78,7 +78,7 @@ function be_custom_fields_dps($output='',$original_atts=array() ){
         /*
         *Format Date
         */
-        $newDate=date_format(date_create(get_the_event_date()),'m/d ');
+        $newDate=date_format(date_create(get_the_event_date()),'d/m ');
         /*
         *Create Date Html
         */
