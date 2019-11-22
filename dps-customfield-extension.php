@@ -73,7 +73,7 @@ function be_custom_fields_dps($output='',$original_atts=array() ){
             $atts = shortcode_atts($atts, 
                 array('posts_per_page' => $atts->posts_per_page + 1),
                 'dps-customfield-extension');
-            return null;
+            return '';
         }
         /*
         *Format Date
